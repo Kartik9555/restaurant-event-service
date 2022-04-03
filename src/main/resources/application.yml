@@ -1,1 +1,10 @@
+#KAFKA
+kafka:
+  bootstrapServer: 172.30.135.72:9092
+  topic:
+    restaurant:
+      status-update: UPDATE_STATUS
+      storename: status-store
 
+server:
+  port: 8091
