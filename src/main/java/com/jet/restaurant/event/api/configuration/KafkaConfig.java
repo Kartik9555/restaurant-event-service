@@ -25,7 +25,7 @@ import static org.apache.kafka.streams.StreamsConfig.*;
 @Configuration
 public class KafkaConfig {
 
-    @Value(value = "${kafka.bootstrapServer}")
+    @Value("${kafka.bootstrapServer}")
     private String bootstrapServer;
 
     @Value("${kafka.topic.restaurant.status-update:UPDATE_STATUS}")
