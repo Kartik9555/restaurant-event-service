@@ -1,6 +1,6 @@
 #KAFKA
 kafka:
-  bootstrapServer: 172.19.178.136:9092
+  bootstrapServer: localhost:9092
   topic:
     restaurant:
       status-update: UPDATE_STATUS
