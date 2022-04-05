@@ -1,6 +1,6 @@
 #KAFKA
 kafka:
-  bootstrapServer: 172.30.135.72:9092
+  bootstrapServer: 172.19.178.136:9092
   topic:
     restaurant:
       status-update: UPDATE_STATUS
@@ -8,3 +8,11 @@ kafka:
 
 server:
   port: 8091
+
+application:
+  name: JET
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
